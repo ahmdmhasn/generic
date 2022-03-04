@@ -12,6 +12,7 @@
 		AADE95EF27D2674400120E3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADE95EE27D2674400120E3C /* ViewController.swift */; };
 		AADE95F427D2674500120E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADE95F327D2674500120E3C /* Assets.xcassets */; };
 		AADE95F727D2674500120E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADE95F527D2674500120E3C /* LaunchScreen.storyboard */; };
+		AADE965727D2A3EC00120E3C /* libLogging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AADE965627D2A3EC00120E3C /* libLogging.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +37,7 @@
 		AADE95F327D2674500120E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AADE95F627D2674500120E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AADE95F827D2674500120E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADE965627D2A3EC00120E3C /* libLogging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libLogging.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF27B0CD1124E9756ECB9408 /* Pods-Generic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Generic.release.xcconfig"; path = "Target Support Files/Pods-Generic/Pods-Generic.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,6 +47,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C12167F2FE3DA5C19D2B705 /* Pods_Generic.framework in Frameworks */,
+				AADE965727D2A3EC00120E3C /* libLogging.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +60,6 @@
 				2D4541382B70F2DEE7914032 /* Pods-Generic.debug.xcconfig */,
 				EF27B0CD1124E9756ECB9408 /* Pods-Generic.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -118,6 +120,7 @@
 		AADE960227D2693000120E3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AADE965627D2A3EC00120E3C /* libLogging.a */,
 				8B87981F84448B472759BA64 /* Pods_Generic.framework */,
 			);
 			name = Frameworks;
