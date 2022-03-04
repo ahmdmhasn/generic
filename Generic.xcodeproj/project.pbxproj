@@ -11,6 +11,7 @@
 		AADE95EF27D2674400120E3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADE95EE27D2674400120E3C /* ViewController.swift */; };
 		AADE95F427D2674500120E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADE95F327D2674500120E3C /* Assets.xcassets */; };
 		AADE95F727D2674500120E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADE95F527D2674500120E3C /* LaunchScreen.storyboard */; };
+		AADE960427D2693000120E3C /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = AADE960327D2693000120E3C /* Logging */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		AADE95F327D2674500120E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AADE95F627D2674500120E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AADE95F827D2674500120E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADE960127D2690900120E3C /* Logging */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Logging; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADE960427D2693000120E3C /* Logging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,8 +39,10 @@
 		AADE95DE27D2674400120E3C = {
 			isa = PBXGroup;
 			children = (
+				AADE960127D2690900120E3C /* Logging */,
 				AADE95E927D2674400120E3C /* Generic */,
 				AADE95E827D2674400120E3C /* Products */,
+				AADE960227D2693000120E3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +90,13 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		AADE960227D2693000120E3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -101,6 +113,9 @@
 			dependencies = (
 			);
 			name = Generic;
+			packageProductDependencies = (
+				AADE960327D2693000120E3C /* Logging */,
+			);
 			productName = Generic;
 			productReference = AADE95E727D2674400120E3C /* Generic.app */;
 			productType = "com.apple.product-type.application";
@@ -368,6 +383,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AADE960327D2693000120E3C /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Logging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AADE95DF27D2674400120E3C /* Project object */;
 }
