@@ -21,13 +21,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 /// Handlers
 ///
 extension AppDelegate {
-    
+
     func setupWindow() {
         let window = UIWindow()
         window.rootViewController = ViewController()
         window.makeKeyAndVisible()
-        
+
         self.window = window
     }
 }
-
