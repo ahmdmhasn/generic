@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ShipBookSDK",
+        "repositoryURL": "https://github.com/ShipBook/ShipBookSDK-iOS.git",
+        "state": {
+          "branch": null,
+          "revision": "4bea7bcf8b96b512135d5b24b897d9ddfa7831c4",
+          "version": "1.1.19"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
