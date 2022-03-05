@@ -89,12 +89,21 @@
 		AA09010827D3B38800AAE3CE /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				AA09011627D3F97A00AAE3CE /* ImageService */,
+				AA09011427D3D44E00AAE3CE /* Logging.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		AA09011627D3F97A00AAE3CE /* ImageService */ = {
+			isa = PBXGroup;
+			children = (
 				AA09011227D3D37A00AAE3CE /* DefaultImageService.swift */,
 				AA09010B27D3D17300AAE3CE /* ImageDownloader.swift */,
 				AA09010927D3B39300AAE3CE /* ImageService.swift */,
 				AA09010D27D3D1BC00AAE3CE /* KingfisherImageDownloader+ImageDownloader.swift */,
 			);
-			path = Tools;
+			path = ImageService;
 			sourceTree = "<group>";
 		};
 		AADE95DE27D2674400120E3C = {
@@ -149,7 +158,6 @@
 				AA09010527D3B32C00AAE3CE /* ServiceLocator */,
 				AADE95EA27D2674400120E3C /* AppDelegate.swift */,
 				AADE95EE27D2674400120E3C /* ViewController.swift */,
-				AA09011427D3D44E00AAE3CE /* Logging.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

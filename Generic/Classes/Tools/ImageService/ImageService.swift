@@ -42,8 +42,18 @@ protocol ImageService {
                                            completion: ImageDownloadCompletion?)
 }
 
-// MARK: - Errors
-//
-enum ImageServiceError: Error {
-    case other(error: Error)
+/// Default Implementation
+/// 
+extension ImageService {
+    func downloadAndCacheImageForImageView(_ imageView: UIImageView,
+                                           with url: String?,
+                                           placeholder: UIImage?,
+                                           progressBlock: ImageDownloadProgressBlock? = nil,
+                                           completion: ImageDownloadCompletion? = nil) {
+        self.downloadAndCacheImageForImageView(imageView,
+                                               with: url,
+                                               placeholder: placeholder,
+                                               progressBlock: progressBlock,
+                                               completion: completion)
+    }
 }
