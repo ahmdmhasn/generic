@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AADE965027D2A3D100120E3C /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADE964F27D2A3D100120E3C /* Logging.swift */; };
+		AADE965027D2A3D100120E3C /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADE964F27D2A3D100120E3C /* Logger.swift */; };
 		AADE965A27D2A55000120E3C /* ShipBookSDK in Frameworks */ = {isa = PBXBuildFile; productRef = AADE965927D2A55000120E3C /* ShipBookSDK */; };
 		AADE965C27D2A9D300120E3C /* LoggingMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADE965B27D2A9D300120E3C /* LoggingMethods.swift */; };
 		AADE965E27D2A9FF00120E3C /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADE965D27D2A9FF00120E3C /* Credentials.swift */; };
@@ -27,7 +27,7 @@
 
 /* Begin PBXFileReference section */
 		AADE964C27D2A3D100120E3C /* libLogging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLogging.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AADE964F27D2A3D100120E3C /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		AADE964F27D2A3D100120E3C /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		AADE965B27D2A9D300120E3C /* LoggingMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingMethods.swift; sourceTree = "<group>"; };
 		AADE965D27D2A9FF00120E3C /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,7 +63,7 @@
 		AADE964E27D2A3D100120E3C /* Logging */ = {
 			isa = PBXGroup;
 			children = (
-				AADE964F27D2A3D100120E3C /* Logging.swift */,
+				AADE964F27D2A3D100120E3C /* Logger.swift */,
 				AADE965B27D2A9D300120E3C /* LoggingMethods.swift */,
 				AADE965D27D2A9FF00120E3C /* Credentials.swift */,
 			);
@@ -136,7 +136,7 @@
 			files = (
 				AADE965E27D2A9FF00120E3C /* Credentials.swift in Sources */,
 				AADE965C27D2A9D300120E3C /* LoggingMethods.swift in Sources */,
-				AADE965027D2A3D100120E3C /* Logging.swift in Sources */,
+				AADE965027D2A3D100120E3C /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
