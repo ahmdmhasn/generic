@@ -8,7 +8,7 @@
 import UIKit
 
 typealias ImageCacheRetrievalCompletion = (_ image: UIImage?) -> Void
-typealias ImageDownloadCompletion = (_ image: UIImage?, _ error: ImageServiceError?) -> Void
+typealias ImageDownloadCompletion = (Result<UIImage, Error>) -> Void
 typealias ImageDownloadProgressBlock = (_ receivedSize: Int64, _ totalSize: Int64) -> Void
 
 /// Provides an interface for retrieving, downloading, and caching an image.
