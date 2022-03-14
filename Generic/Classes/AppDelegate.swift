@@ -28,9 +28,24 @@ extension AppDelegate {
 
     func setupWindow() {
         let window = UIWindow()
-        window.rootViewController = ViewController()
+        window.rootViewController = IntroViewController(rootView: IntroView()) // ViewController()
         window.makeKeyAndVisible()
 
         self.window = window
+    }
+}
+
+import SwiftUI
+
+class IntroViewController: UIHostingController<IntroView> { }
+
+struct IntroView: View {
+    var body: some View {
+        if #available(iOS 14.0, *) {
+            Text("Hello, World!")
+                .font(.system(.title))
+        } else {
+            EmptyView()
+        }
     }
 }
