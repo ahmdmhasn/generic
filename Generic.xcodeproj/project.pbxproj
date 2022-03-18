@@ -16,6 +16,7 @@
 		AA09011127D3D28400AAE3CE /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = AA09011027D3D28400AAE3CE /* Kingfisher */; };
 		AA09011327D3D37A00AAE3CE /* DefaultImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA09011227D3D37A00AAE3CE /* DefaultImageService.swift */; };
 		AA09011527D3D44E00AAE3CE /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA09011427D3D44E00AAE3CE /* Logging.swift */; };
+		AAC033B127E530130043AAEA /* libNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC033B027E530130043AAEA /* libNetworking.a */; };
 		AADE95EB27D2674400120E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADE95EA27D2674400120E3C /* AppDelegate.swift */; };
 		AADE95EF27D2674400120E3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADE95EE27D2674400120E3C /* ViewController.swift */; };
 		AADE95F427D2674500120E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADE95F327D2674500120E3C /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		AA09010D27D3D1BC00AAE3CE /* KingfisherImageDownloader+ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KingfisherImageDownloader+ImageDownloader.swift"; sourceTree = "<group>"; };
 		AA09011227D3D37A00AAE3CE /* DefaultImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultImageService.swift; sourceTree = "<group>"; };
 		AA09011427D3D44E00AAE3CE /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		AAC033B027E530130043AAEA /* libNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADE95E727D2674400120E3C /* Generic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Generic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADE95EA27D2674400120E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AADE95EE27D2674400120E3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA09011127D3D28400AAE3CE /* Kingfisher in Frameworks */,
+				AAC033B127E530130043AAEA /* libNetworking.a in Frameworks */,
 				6C12167F2FE3DA5C19D2B705 /* Pods_Generic.framework in Frameworks */,
 				AA09010427D3B2E600AAE3CE /* libLogging.a in Frameworks */,
 			);
@@ -165,6 +168,7 @@
 		AADE960227D2693000120E3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AAC033B027E530130043AAEA /* libNetworking.a */,
 				AA09010327D3B2E600AAE3CE /* libLogging.a */,
 				AADE965627D2A3EC00120E3C /* libLogging.a */,
 				8B87981F84448B472759BA64 /* Pods_Generic.framework */,
