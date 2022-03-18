@@ -45,6 +45,7 @@ Packages/
 Package.pins
 .build/
 *.xcodeproj
+*.xcuserdatad
 
 # CocoaPods
 #
