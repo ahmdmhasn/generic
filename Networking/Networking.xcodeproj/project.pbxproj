@@ -14,6 +14,8 @@
 		AAC033BC27E54AE30043AAEA /* RemoteValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033BB27E54AE30043AAEA /* RemoteValidator.swift */; };
 		AAC033BE27E54BAF0043AAEA /* RemoteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033BD27E54BAF0043AAEA /* RemoteError.swift */; };
 		AAC033C127E5509C0043AAEA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AAC033C027E5509C0043AAEA /* Alamofire */; };
+		AAC033C327E551630043AAEA /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033C227E551630043AAEA /* Network.swift */; };
+		AAC033C527E551910043AAEA /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033C427E551910043AAEA /* Credentials.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,8 @@
 		AAC033B927E549F30043AAEA /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		AAC033BB27E54AE30043AAEA /* RemoteValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteValidator.swift; sourceTree = "<group>"; };
 		AAC033BD27E54BAF0043AAEA /* RemoteError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteError.swift; sourceTree = "<group>"; };
+		AAC033C227E551630043AAEA /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		AAC033C427E551910043AAEA /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		AAC033AB27E52F2A0043AAEA /* Network  */ = {
 			isa = PBXGroup;
 			children = (
+				AAC033C227E551630043AAEA /* Network.swift */,
 			);
 			path = "Network ";
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 		AAC033AE27E52F3F0043AAEA /* Settings  */ = {
 			isa = PBXGroup;
 			children = (
+				AAC033C427E551910043AAEA /* Credentials.swift */,
 			);
 			path = "Settings ";
 			sourceTree = "<group>";
@@ -212,9 +218,11 @@
 			files = (
 				AAC033BE27E54BAF0043AAEA /* RemoteError.swift in Sources */,
 				AAC033BC27E54AE30043AAEA /* RemoteValidator.swift in Sources */,
+				AAC033C527E551910043AAEA /* Credentials.swift in Sources */,
 				AAC033B827E549CE0043AAEA /* AccountMapper.swift in Sources */,
 				AAC033BA27E549F30043AAEA /* Account.swift in Sources */,
 				AAC033B627E5493E0043AAEA /* Mapper.swift in Sources */,
+				AAC033C327E551630043AAEA /* Network.swift in Sources */,
 				AAC033B427E5307A0043AAEA /* Logging.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
