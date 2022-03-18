@@ -2,12 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Observables">
+      location = "group:Generic.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Logging/Logging.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Generic.xcodeproj">
+      location = "group:Networking/Networking.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Observables">
    </FileRef>
 </Workspace>
