@@ -13,4 +13,7 @@
    <FileRef
       location = "group:Observables">
    </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
 </Workspace>
