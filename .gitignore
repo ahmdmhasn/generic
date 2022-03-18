@@ -98,3 +98,4 @@ default.profraw
 
 # AppCode
 .idea
+*/xcshareddata/*
