@@ -6,6 +6,9 @@
 build/
 DerivedData/
 
+# User generated
+*/xcshareddata/
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
@@ -44,7 +47,6 @@ playground.xcworkspace
 Packages/
 Package.pins
 .build/
-// *.xcodeproj
 
 # CocoaPods
 #
