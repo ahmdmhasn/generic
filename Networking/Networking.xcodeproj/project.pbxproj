@@ -21,6 +21,10 @@
 		AAC033CB27E554970043AAEA /* AuthenticatedRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033CA27E554970043AAEA /* AuthenticatedRequest.swift */; };
 		AAC033CD27E558AE0043AAEA /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033CC27E558AE0043AAEA /* Remote.swift */; };
 		AAC033CF27E55BB40043AAEA /* Result+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033CE27E55BB40043AAEA /* Result+Extensions.swift */; };
+		AAC033D127E55CF20043AAEA /* AccountRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033D027E55CF20043AAEA /* AccountRemote.swift */; };
+		AAC033D327E55D6C0043AAEA /* RemoteRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033D227E55D6C0043AAEA /* RemoteRequest.swift */; };
+		AAC033D527E55E0B0043AAEA /* APIVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033D427E55E0B0043AAEA /* APIVersion.swift */; };
+		AAC033D727E55E510043AAEA /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033D627E55E510043AAEA /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +55,10 @@
 		AAC033CA27E554970043AAEA /* AuthenticatedRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedRequest.swift; sourceTree = "<group>"; };
 		AAC033CC27E558AE0043AAEA /* Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
 		AAC033CE27E55BB40043AAEA /* Result+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+Extensions.swift"; sourceTree = "<group>"; };
+		AAC033D027E55CF20043AAEA /* AccountRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRemote.swift; sourceTree = "<group>"; };
+		AAC033D227E55D6C0043AAEA /* RemoteRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteRequest.swift; sourceTree = "<group>"; };
+		AAC033D427E55E0B0043AAEA /* APIVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIVersion.swift; sourceTree = "<group>"; };
+		AAC033D627E55E510043AAEA /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				AAC033CC27E558AE0043AAEA /* Remote.swift */,
+				AAC033D027E55CF20043AAEA /* AccountRemote.swift */,
 			);
 			path = "Remote ";
 			sourceTree = "<group>";
@@ -146,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				AAC033CA27E554970043AAEA /* AuthenticatedRequest.swift */,
+				AAC033D227E55D6C0043AAEA /* RemoteRequest.swift */,
 			);
 			path = "Requests ";
 			sourceTree = "<group>";
@@ -154,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				AAC033C427E551910043AAEA /* Credentials.swift */,
+				AAC033D427E55E0B0043AAEA /* APIVersion.swift */,
+				AAC033D627E55E510043AAEA /* Settings.swift */,
 			);
 			path = "Settings ";
 			sourceTree = "<group>";
@@ -233,6 +245,8 @@
 			files = (
 				AAC033CB27E554970043AAEA /* AuthenticatedRequest.swift in Sources */,
 				AAC033BE27E54BAF0043AAEA /* RemoteError.swift in Sources */,
+				AAC033D327E55D6C0043AAEA /* RemoteRequest.swift in Sources */,
+				AAC033D727E55E510043AAEA /* Settings.swift in Sources */,
 				AAC033BC27E54AE30043AAEA /* RemoteValidator.swift in Sources */,
 				AAC033C527E551910043AAEA /* Credentials.swift in Sources */,
 				AAC033B827E549CE0043AAEA /* AccountMapper.swift in Sources */,
@@ -241,7 +255,9 @@
 				AAC033C927E553880043AAEA /* AlamofireNetwork.swift in Sources */,
 				AAC033C727E553220043AAEA /* NetworkError.swift in Sources */,
 				AAC033C327E551630043AAEA /* Network.swift in Sources */,
+				AAC033D527E55E0B0043AAEA /* APIVersion.swift in Sources */,
 				AAC033B427E5307A0043AAEA /* Logging.swift in Sources */,
+				AAC033D127E55CF20043AAEA /* AccountRemote.swift in Sources */,
 				AAC033CF27E55BB40043AAEA /* Result+Extensions.swift in Sources */,
 				AAC033CD27E558AE0043AAEA /* Remote.swift in Sources */,
 			);
