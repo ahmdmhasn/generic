@@ -13,6 +13,13 @@ public enum APIVersion: String {
     ///
     case mark1 = "v1"
     
+    /// Endpoint Mark 2
+    ///
+    case mark2 = "v2"
+    
+    /// Endpoint Mark 3
+    ///
+    case mark3 = "v3"
 
     /// Returns the path for the current API Version
     ///
