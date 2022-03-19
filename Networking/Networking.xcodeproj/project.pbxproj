@@ -19,6 +19,8 @@
 		AAC033C727E553220043AAEA /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033C627E553220043AAEA /* NetworkError.swift */; };
 		AAC033C927E553880043AAEA /* AlamofireNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033C827E553880043AAEA /* AlamofireNetwork.swift */; };
 		AAC033CB27E554970043AAEA /* AuthenticatedRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033CA27E554970043AAEA /* AuthenticatedRequest.swift */; };
+		AAC033CD27E558AE0043AAEA /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033CC27E558AE0043AAEA /* Remote.swift */; };
+		AAC033CF27E55BB40043AAEA /* Result+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033CE27E55BB40043AAEA /* Result+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +49,8 @@
 		AAC033C627E553220043AAEA /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		AAC033C827E553880043AAEA /* AlamofireNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireNetwork.swift; sourceTree = "<group>"; };
 		AAC033CA27E554970043AAEA /* AuthenticatedRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedRequest.swift; sourceTree = "<group>"; };
+		AAC033CC27E558AE0043AAEA /* Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
+		AAC033CE27E55BB40043AAEA /* Result+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		AAC033A827E52F110043AAEA /* Extensions  */ = {
 			isa = PBXGroup;
 			children = (
+				AAC033CE27E55BB40043AAEA /* Result+Extensions.swift */,
 			);
 			path = "Extensions ";
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 		AAC033AC27E52F300043AAEA /* Remote  */ = {
 			isa = PBXGroup;
 			children = (
+				AAC033CC27E558AE0043AAEA /* Remote.swift */,
 			);
 			path = "Remote ";
 			sourceTree = "<group>";
@@ -236,6 +242,8 @@
 				AAC033C727E553220043AAEA /* NetworkError.swift in Sources */,
 				AAC033C327E551630043AAEA /* Network.swift in Sources */,
 				AAC033B427E5307A0043AAEA /* Logging.swift in Sources */,
+				AAC033CF27E55BB40043AAEA /* Result+Extensions.swift in Sources */,
+				AAC033CD27E558AE0043AAEA /* Remote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
