@@ -17,6 +17,8 @@
 		AAC033C327E551630043AAEA /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033C227E551630043AAEA /* Network.swift */; };
 		AAC033C527E551910043AAEA /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033C427E551910043AAEA /* Credentials.swift */; };
 		AAC033C727E553220043AAEA /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033C627E553220043AAEA /* NetworkError.swift */; };
+		AAC033C927E553880043AAEA /* AlamofireNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033C827E553880043AAEA /* AlamofireNetwork.swift */; };
+		AAC033CB27E554970043AAEA /* AuthenticatedRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC033CA27E554970043AAEA /* AuthenticatedRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +45,8 @@
 		AAC033C227E551630043AAEA /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		AAC033C427E551910043AAEA /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		AAC033C627E553220043AAEA /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		AAC033C827E553880043AAEA /* AlamofireNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireNetwork.swift; sourceTree = "<group>"; };
+		AAC033CA27E554970043AAEA /* AuthenticatedRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,7 @@
 			children = (
 				AAC033C227E551630043AAEA /* Network.swift */,
 				AAC033C627E553220043AAEA /* NetworkError.swift */,
+				AAC033C827E553880043AAEA /* AlamofireNetwork.swift */,
 			);
 			path = "Network ";
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 		AAC033AD27E52F380043AAEA /* Requests  */ = {
 			isa = PBXGroup;
 			children = (
+				AAC033CA27E554970043AAEA /* AuthenticatedRequest.swift */,
 			);
 			path = "Requests ";
 			sourceTree = "<group>";
@@ -219,12 +225,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC033CB27E554970043AAEA /* AuthenticatedRequest.swift in Sources */,
 				AAC033BE27E54BAF0043AAEA /* RemoteError.swift in Sources */,
 				AAC033BC27E54AE30043AAEA /* RemoteValidator.swift in Sources */,
 				AAC033C527E551910043AAEA /* Credentials.swift in Sources */,
 				AAC033B827E549CE0043AAEA /* AccountMapper.swift in Sources */,
 				AAC033BA27E549F30043AAEA /* Account.swift in Sources */,
 				AAC033B627E5493E0043AAEA /* Mapper.swift in Sources */,
+				AAC033C927E553880043AAEA /* AlamofireNetwork.swift in Sources */,
 				AAC033C727E553220043AAEA /* NetworkError.swift in Sources */,
 				AAC033C327E551630043AAEA /* Network.swift in Sources */,
 				AAC033B427E5307A0043AAEA /* Logging.swift in Sources */,

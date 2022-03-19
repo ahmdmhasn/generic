@@ -11,7 +11,7 @@ public protocol MultipartFormData {
 
     /// Appends data for a name to form data.
     ///
-    func append(_ data: Data, withName name: String)
+    func append(_ data: Data, withName name: String, fileName: String?, mimeType: String?)
 }
 
 /// Defines all of the Network Operations we'll be performing. This allows us to swap the actual Wrapper in our
@@ -53,5 +53,5 @@ public protocol Network {
     ///   - completion: Closure to be executed upon completion.
     func uploadMultipartFormData(multipartFormData: @escaping (MultipartFormData) -> Void,
                                  to request: URLRequestConvertible,
-                                 completion: @escaping (Swift.Result<Data, Error>) -> Void)
+                                 completion: @escaping (Swift.Result<Data?, Error>) -> Void)
 }
