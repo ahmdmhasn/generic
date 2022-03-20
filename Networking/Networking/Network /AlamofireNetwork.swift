@@ -24,8 +24,9 @@ public class AlamofireNetwork: Network {
         // A unique ID is included in the background session identifier so that the session does not get invalidated when the initializer is called multiple
         // times (e.g. when logging in).
         let uniqueID = UUID().uuidString
-        let configuration = URLSessionConfiguration.background(withIdentifier: "com.generic.backgroundsession.\(uniqueID)")
-        self.backgroundSessionManager = Alamofire.Session(configuration: configuration)
+        
+        let queue = DispatchQueue(label: "com.generic.backgroundsession.\(uniqueID)")
+        self.backgroundSessionManager = Alamofire.Session(rootQueue: queue)
     }
 
     /// Executes the specified Network Request. Upon completion, the payload will be sent back to the caller as a Data instance.
